@@ -1,0 +1,112 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(235, 240, 248);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  width: 30vw;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.pending-order-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.complete-order {
+  display: flex;
+  justify-content: center;
+}
+
+.buyer {
+  color: green;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.seller {
+  color: red;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.clear-buyer {
+  color: #fff;
+  background-color: green;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-seller {
+  color: #fff;
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: rgb(16, 126, 154);
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.complete-btn {
+  color: #fff;
+  background-color: rgb(16, 126, 154);
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+label {
+  color: rgb(230, 164, 77);
+}
+
+input {
+  border-color: crimson;
+  border-radius: 2px;
+}
+
+.buyer-seller {
+  border-color: crimson;
+  border-radius: 2px;
+}
+
+.App h1 {
+  color: darkorange;
+  font-size: 36px;
+}
